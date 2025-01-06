@@ -706,7 +706,7 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-  .about-img {
+  .about-img, .detail-company {
     display: none;
   }
 
@@ -724,30 +724,28 @@ body {
 /* Nav detail */
 
 .tab-item {
-  color: #6c757d; 
+  color: #6c757d;
   border: none;
   transition: all 0.1s ease-in-out;
 }
 
 .tab-item:hover {
-  color: #4399D4;
+  color: #4399d4;
 }
 
 .tab-item.active {
-  color: #4399D4;
-  border-bottom: 3px solid #4399D4; 
+  color: #4399d4;
+  border-bottom: 3px solid #4399d4;
   font-weight: bold;
 }
 
-
 .tab-item.active:hover {
-  color: #4399D4; 
+  color: #4399d4;
 }
 
 /* End Nav detail */
 
 /* End Company */
-
 
 /* Contact */
 @media screen and (max-width: 768px) {
@@ -756,3 +754,23 @@ body {
   }
 }
 /* End Contact */
+
+/* Card Job */
+.card {
+  height: 100%;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.card-header {
+  padding: 15px;
+  font-weight: bold;
+  color: #dc3545;
+  font-size: 1.25rem;
+  text-align: center;
+}
+.info-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+/*  */

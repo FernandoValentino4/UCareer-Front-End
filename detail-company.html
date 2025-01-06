@@ -41,7 +41,7 @@
     </div>
     <!-- Spinner End -->
 
-    <!-- Navbar & Carousel Start -->
+    <!-- Navbar Start -->
     <div class="container-fluid position-relative p-0">
       <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
         <a href="index.html" class="navbar-brand p-0">
@@ -52,56 +52,36 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <div class="navbar-nav ms-auto mx-auto py-0">
-            <a href="index.html" class="nav-item nav-link mx-4">Beranda</a>
-            <a href="#" class="nav-item nav-link mx-4">Cari Lowongan</a>
-            <a href="list-company.html" class="nav-item nav-link mx-4 active">Perusahaan</a>
-            <a href="contact.html" class="nav-item nav-link mx-4">Kontak</a>
+            <a href="index.html" class="nav-item nav-link mx-4 text-dark">Beranda</a>
+            <a href="#" class="nav-item nav-link mx-4 text-dark">Cari Lowongan</a>
+            <a href="list-company.html" class="nav-item nav-link mx-4 text-dark">Perusahaan</a>
+            <a href="contact.html" class="nav-item nav-link mx-4 text-dark active">Kontak</a>
           </div>
-          <a href="done-login.html" class="btn btn-primary py-2 px-4 ms-3">Masuk</a>
-          <button type="button" class="btn btn-primary py-2 px-4 ms-3" data-bs-toggle="modal" data-bs-target="#modalDaftar">Daftar</button>
+          <!-- <a href="done-login.html" class="btn btn-primary py-2 px-4 ms-3">Masuk</a>
+          <button type="button" class="btn btn-primary py-2 px-4 ms-3" data-bs-toggle="modal" data-bs-target="#exampleModal">Daftar</button> -->
 
           <!-- Profile -->
-          <!-- <div class="dropdown">
+          <div class="dropdown">
             <a class="d-flex align-items-center py-2 px-4 ms-3 btn text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               <img src="assets/img/user.jpg" alt="Profil" width="40" class="img-fluid rounded-pill me-2" />
-              <p class="mb-0 fw-4 nav-link">Rafathar</p>
+              <p class="mb-0 fw-4 nav-link text-dark">Rafathar</p>
             </a>
             <ul class="dropdown-menu border-0">
               <li><a class="dropdown-item" href="#">Profil</a></li>
               <li><a class="dropdown-item" href="#">Another action</a></li>
               <li><a class="dropdown-item" href="#">Logout</a></li>
             </ul>
-          </div> -->
+          </div>
           <!-- End Profile -->
         </div>
       </nav>
-
-      <!-- Carousel Start -->
-      <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="w-100" src="assets/img/carousel-1.png" alt="Image" />
-          </div>
-          <div class="carousel-item">
-            <img class="w-100" src="assets/img/carousel-2.png" alt="Image" />
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
     </div>
-    <!-- Navbar & Carousel End -->
+    <!-- Navbar End -->
 
     <!-- About Start -->
-    <div class="container-fluid my-3 wow fadeInUp" data-wow-delay="0.1s">
-      <div class="container">
-        <div class="card shadow-sm loker-title">
+    <div class="detail-company container-fluid py-5 mt-5 wow fadeInUp" data-wow-delay="0.1s">
+      <div class="container mt-5">
+        <div class="card shadow-sm loker-title pt-5">
           <div class="card-body">
             <div class="row align-items-center">
               <div class="col-lg-12 col-md-12 col-sm-12 text-center">
@@ -146,8 +126,44 @@
           <!-- Content for Tab 1 -->
           <div class="tab-pane fade show active" id="content-1" role="tabpanel" aria-labelledby="tab-1">
             <div class="card shadow">
-              <div class="card-body">
-                <h4 class="text-center mt-3">Kami sedang mengembangkan fitur ulasan untuk memudahkan Anda dalam mencari pekerjaan terbaik.</h4>
+              <div class="card-body p-4">
+                <h2 class="card-title fw-bold mb-4">Sekilas tentang perusahaan</h2>
+                <div class="row pb-0">
+                  <div class="col-3">
+                    <p><strong>Situs Web</strong></p>
+                  </div>
+                  <div class="col-6"><p class="fw-bold">UCareer</p></div>
+                </div>
+
+                <div class="row">
+                  <div class="col-3">
+                    <p><strong>Industri</strong></p>
+                  </div>
+                  <div class="col-6"><p>Insurance</p></div>
+                </div>
+                <div class="row">
+                  <div class="col-3">
+                    <p><strong>Karyawan Perusahaan</strong></p>
+                  </div>
+                  <div class="col-6"><p>1000 Karyawan</p></div>
+                </div>
+                <div class="row">
+                  <div class="col-3">
+                    <p><strong>Alamat Perusahaan</strong></p>
+                  </div>
+                  <div class="col-6"><p>UCareer, Jl. Raya Kesambi No.202, Drajat, Kec. Kesambi, Kota Cirebon, Jawa Barat 45133</p></div>
+                </div>
+                <div class="col-12">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, repellendus.</p>
+                </div>
+                <h5 class="mt-4">Misi perusahaan</h5>
+                <ol>
+                  <li>Menghubungkan pencari kerja dengan peluang karier terbaik, mulai dari Full Time, Part Time, Freelance.</li>
+                  <li>Meningkatkan akses mudah dan cepat untuk menemukan talenta sesuai kebutuhan perusahaan.</li>
+                  <li>Mendukung peluang pendidikan dan pelatihan teknis untuk meningkatkan kualitas tenaga kerja.</li>
+                  <li>Menghadirkan inovasi berbasis teknologi dalam optimasi efisiensi pencarian kerja.</li>
+                  <li>Membangun komunitas profesional berbasis etika untuk pertumbuhan karier di era digital.</li>
+                </ol>
               </div>
             </div>
           </div>
@@ -155,8 +171,63 @@
           <!-- Content for Tab 2 -->
           <div class="tab-pane fade" id="content-2" role="tabpanel" aria-labelledby="tab-2">
             <div class="card shadow">
-              <div class="card-body">
-                <h4 class="text-center mt-3">Konten Tab 2: Kami sedang menambahkan lebih banyak ulasan yang relevan.</h4>
+              <div class="card-body p-4">
+                <h3 class="mb-4">Ulasan</h3>
+
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-auto">
+                      <img src="https://via.placeholder.com/50" class="rounded-circle m-3" alt="User" />
+                    </div>
+                    <div class="col-10">
+                      <div class="card-body">
+                        <h5 class="card-title">Ananda Irfansyah</h5>
+                        <p class="card-text" style="white-space: normal; word-wrap: break-word">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                          commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                          anim id est laborum.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Duplicate for other reviews -->
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-auto">
+                      <img src="https://via.placeholder.com/50" class="rounded-circle m-3" alt="User" />
+                    </div>
+                    <div class="col-10">
+                      <div class="card-body">
+                        <h5 class="card-title">Dwi Pasha Anggaran Negara</h5>
+                        <p class="card-text" style="white-space: normal; word-wrap: break-word">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                          commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                          anim id est laborum.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-auto">
+                      <img src="https://via.placeholder.com/50" class="rounded-circle m-3" alt="User" />
+                    </div>
+                    <div class="col-10">
+                      <div class="card-body">
+                        <h5 class="card-title">Raden Kanjeng Rama</h5>
+                        <p class="card-text" style="white-space: normal; word-wrap: break-word">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                          commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                          anim id est laborum.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -165,7 +236,179 @@
           <div class="tab-pane fade" id="content-3" role="tabpanel" aria-labelledby="tab-3">
             <div class="card shadow">
               <div class="card-body">
-                <h4 class="text-center mt-3">Konten Tab 2: Kami sedang menambahkan lebih banyak ulasan yang relevan.</h4>
+                <div class="row g-3">
+                  <!-- Job Card 1 -->
+                  <div class="col-lg-3 col-md-6 col-sm-12">
+                    <a href="" class="text-decoration-none">
+                      <div class="card job-card-blue p-3 shadow wow zoomIn" data-wow-delay="0.1s" style="min-width: 200px">
+                        <div class="d-flex align-items-center mb-2">
+                          <img src="assets/img/logo-ucareer-putih.svg" alt="Career logo" width="80" />
+                        </div>
+                        <h5 class="mb-2 text-white fw-bold">Admin</h5>
+                        <div class="card-body p-0">
+                          <p class="mb-0">PT. Mencari Cinta Sejati</p>
+                          <p class="mb-2">Cirebon, Jawa Barat</p>
+                          <div class="d-flex flex-wrap gap-2 mb-3">
+                            <span class="badge bg-light text-dark">Rp3.000.000 - Rp4.000.000</span>
+                            <span class="badge bg-light text-dark">Full Time</span>
+                          </div>
+                        </div>
+                        <div class="p-0 border-0">
+                          <p class="text-white mb-0" style="font-size: 12px">7 jam yang lalu</p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <!-- Job Card 2 -->
+                  <div class="col-lg-3 col-md-6 col-sm-12">
+                    <a href="" class="text-decoration-none">
+                      <div class="card job-card-white p-3 shadow wow zoomIn" data-wow-delay="0.1s" style="min-width: 200px">
+                        <div class="d-flex align-items-center mb-2">
+                          <img src="assets/img/logo-ucareer-biru.svg" alt="Career logo" class="me-2" width="80" />
+                        </div>
+                        <h5 class="card-title mb-2 text-dark fw-bold">Barista</h5>
+                        <div class="card-body p-0">
+                          <p class="card-text mb-0">District 38</p>
+                          <p class="card-text mb-2">Cirebon, Jawa Barat</p>
+                          <div class="d-flex flex-wrap gap-2 mb-3">
+                            <span class="badge badge-ucareer text-white">Part Time</span>
+                          </div>
+                        </div>
+                        <div class="p-0 border-0">
+                          <p class="text-dark small mb-0" style="font-size: 12px">2 jam yang lalu</p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <!-- Job Card 3 -->
+                  <div class="col-lg-3 col-md-6 col-sm-12">
+                    <a href="" class="text-decoration-none">
+                      <div class="card job-card-blue p-3 shadow wow zoomIn" data-wow-delay="0.1s" style="min-width: 200px">
+                        <div class="d-flex align-items-center mb-2">
+                          <img src="assets/img/logo-ucareer-putih.svg" alt="Career logo" width="80" />
+                        </div>
+                        <h5 class="card-title mb-2 text-white fw-bold">Marketing</h5>
+                        <div class="card-body p-0">
+                          <p class="card-text mb-0">PT. KAI</p>
+                          <p class="card-text mb-2">Cirebon, Jawa Barat</p>
+                          <div class="d-flex flex-wrap gap-2 mb-3">
+                            <span class="badge bg-light text-dark">Magang</span>
+                          </div>
+                        </div>
+                        <div class="p-0 border-0">
+                          <p class="text-white mb-0" style="font-size: 12px">7 jam yang lalu</p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <!-- Job Card 4 -->
+                  <div class="col-lg-3 col-md-6 col-sm-12">
+                    <a href="" class="text-decoration-none">
+                      <div class="card job-card-white p-3 shadow wow zoomIn" data-wow-delay="0.1s" style="min-width: 200px">
+                        <div class="d-flex align-items-center mb-2">
+                          <img src="assets/img/logo-ucareer-biru.svg" alt="Career logo" width="80" />
+                        </div>
+                        <h5 class="mb-2 text-dark fw-bold">Buatkan Aplikasi Absensi Berbasis Mobile</h5>
+                        <div class="card-body p-0">
+                          <p class="card-text mb-0">Universitas Catur Insan Cendekia</p>
+                          <p class="card-text mb-2">Cirebon, Jawa Barat</p>
+                          <div class="d-flex flex-wrap gap-2 mb-3">
+                            <span class="badge badge-ucareer text-white">Freelance</span>
+                          </div>
+                        </div>
+                        <div class="p-0 border-0">
+                          <p class="text-dark small mb-0" style="font-size: 12px">2 jam yang lalu</p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <!-- Job Card 1 -->
+                  <div class="col-lg-3 col-md-6 col-sm-12">
+                    <a href="" class="text-decoration-none">
+                      <div class="card job-card-blue p-3 shadow wow zoomIn" data-wow-delay="0.1s" style="min-width: 200px">
+                        <div class="d-flex align-items-center mb-2">
+                          <img src="assets/img/logo-ucareer-putih.svg" alt="Career logo" width="80" />
+                        </div>
+                        <h5 class="mb-2 text-white fw-bold">Admin</h5>
+                        <div class="card-body p-0">
+                          <p class="mb-0">PT. Mencari Cinta Sejati</p>
+                          <p class="mb-2">Cirebon, Jawa Barat</p>
+                          <div class="d-flex flex-wrap gap-2 mb-3">
+                            <span class="badge bg-light text-dark">Rp3.000.000 - Rp4.000.000</span>
+                            <span class="badge bg-light text-dark">Full Time</span>
+                          </div>
+                        </div>
+                        <div class="p-0 border-0">
+                          <p class="text-white mb-0" style="font-size: 12px">7 jam yang lalu</p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <!-- Job Card 2 -->
+                  <div class="col-lg-3 col-md-6 col-sm-12">
+                    <a href="" class="text-decoration-none">
+                      <div class="card job-card-white p-3 shadow wow zoomIn" data-wow-delay="0.1s" style="min-width: 200px">
+                        <div class="d-flex align-items-center mb-2">
+                          <img src="assets/img/logo-ucareer-biru.svg" alt="Career logo" class="me-2" width="80" />
+                        </div>
+                        <h5 class="card-title mb-2 text-dark fw-bold">Barista</h5>
+                        <div class="card-body p-0">
+                          <p class="card-text mb-0">District 38</p>
+                          <p class="card-text mb-2">Cirebon, Jawa Barat</p>
+                          <div class="d-flex flex-wrap gap-2 mb-3">
+                            <span class="badge badge-ucareer text-white">Part Time</span>
+                          </div>
+                        </div>
+                        <div class="p-0 border-0">
+                          <p class="text-dark small mb-0" style="font-size: 12px">2 jam yang lalu</p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <!-- Job Card 3 -->
+                  <div class="col-lg-3 col-md-6 col-sm-12">
+                    <a href="" class="text-decoration-none">
+                      <div class="card job-card-blue p-3 shadow wow zoomIn" data-wow-delay="0.1s" style="min-width: 200px">
+                        <div class="d-flex align-items-center mb-2">
+                          <img src="assets/img/logo-ucareer-putih.svg" alt="Career logo" width="80" />
+                        </div>
+                        <h5 class="card-title mb-2 text-white fw-bold">Marketing</h5>
+                        <div class="card-body p-0">
+                          <p class="card-text mb-0">PT. KAI</p>
+                          <p class="card-text mb-2">Cirebon, Jawa Barat</p>
+                          <div class="d-flex flex-wrap gap-2 mb-3">
+                            <span class="badge bg-light text-dark">Magang</span>
+                          </div>
+                        </div>
+                        <div class="p-0 border-0">
+                          <p class="text-white mb-0" style="font-size: 12px">7 jam yang lalu</p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <!-- Job Card 4 -->
+                  <div class="col-lg-3 col-md-6 col-sm-12">
+                    <a href="" class="text-decoration-none">
+                      <div class="card job-card-white p-3 shadow wow zoomIn" data-wow-delay="0.1s" style="min-width: 200px">
+                        <div class="d-flex align-items-center mb-2">
+                          <img src="assets/img/logo-ucareer-biru.svg" alt="Career logo" width="80" />
+                        </div>
+                        <h5 class="mb-2 text-dark fw-bold">Buatkan Aplikasi Absensi Berbasis Mobile</h5>
+                        <div class="card-body p-0">
+                          <p class="card-text mb-0">Universitas Catur Insan Cendekia</p>
+                          <p class="card-text mb-2">Cirebon, Jawa Barat</p>
+                          <div class="d-flex flex-wrap gap-2 mb-3">
+                            <span class="badge badge-ucareer text-white">Freelance</span>
+                          </div>
+                        </div>
+                        <div class="p-0 border-0">
+                          <p class="text-dark small mb-0" style="font-size: 12px">2 jam yang lalu</p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <!-- Tambahkan Job Card Lainnya -->
+                </div>
               </div>
             </div>
           </div>
